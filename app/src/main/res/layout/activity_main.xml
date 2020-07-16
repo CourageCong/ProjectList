@@ -7,13 +7,14 @@
     tools:context="com.fc.projectlist.MainActivity">
 
     <TextView
+        app:layout_constraintLeft_toLeftOf="parent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.fc.projectlist.basic.define_view.Zxing_define_view
+    <!--<com.fc.projectlist.basic.define_view.Zxing_define_view
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent" />-->
 
 </android.support.constraint.ConstraintLayout>
